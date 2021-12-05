@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="1100px"
+        android:layout_width="match_parent"
         android:layout_height="250px"
         android:text="Pharmacy Management System"
         android:textAlignment="center"
@@ -27,7 +27,7 @@
         android:layout_width="1000px"
         android:layout_height="wrap_content"
         android:layout_id="dr_name1"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="340dp"
         android:layout_centerHorizontal="true"
         android:background="@color/grey"
 
@@ -39,36 +39,6 @@
             android:hint="Dr.Name and ID" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="1000px"
-        android:layout_height="wrap_content"
-        android:layout_id="dr_name2"
-        android:layout_marginTop="220dp"
-        android:layout_centerHorizontal="true"
-        android:background="@color/grey"
-        >
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Dr.Name and ID" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="1000px"
-        android:layout_height="wrap_content"
-        android:layout_id="dr_name2"
-        android:layout_marginTop="300dp"
-        android:layout_centerHorizontal="true"
-        android:background="@color/grey"
-
-        >
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Dr.Name and ID" />
-    </com.google.android.material.textfield.TextInputLayout>
 
 
 </RelativeLayout>

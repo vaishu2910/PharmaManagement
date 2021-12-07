@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,7 +9,7 @@
     tools:context=".Page7">
 
     <TextView
-        android:layout_width="1200px"
+        android:layout_width="match_parent"
         android:layout_height="250px"
         android:text="Pharmacy Management System"
         android:textAlignment="center"
@@ -23,16 +24,17 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="All Product"
+        android:layout_alignParentEnd="true"
         android:layout_marginTop="130dp"
-        android:layout_marginLeft="330dp"
-        android:textSize="40px"
-        android:textColor="@color/nevy_blue"/>
+        android:text="All Product"
+        android:textColor="@color/nevy_blue"
+        android:textSize="40px" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="160dp"
         android:text="Select Region"
@@ -44,6 +46,7 @@
         android:id="@+id/spinner1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="195dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,12 +55,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="450dp"
         android:text="Select Doctor"
@@ -68,6 +70,7 @@
         android:id="@+id/spinner2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="485dp"
         app:layout_constraintBottom_toBottomOf="parent"
